@@ -33,7 +33,13 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h2 id="tutorial">Introduction and Tutorials</h2>
 
+### Books and PhD Thesis
+* Fast, Scalable, and Accurate Algorithms for Time-Series Analysis, *Phd Thesis* 2018. [\[Link\]](https://academiccommons.columbia.edu/doi/10.7916/D80K3S4B)
+* Fast Algorithms for Mining Co-evolving Time Series, *Phd Thesis* 2010. [\[Link\]](https://lileicc.github.io/pubs/li2010fast.pdf)
+
+
 ### General Time Series Survey
+* Foundation models for time series analysis: A tutorial and survey, in *KDD* 2024. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3637528.3671451)
 * What Can Large Language Models Tell Us about Time Series Analysis, in *ICML* 2024. [\[Paper\]](https://arxiv.org/abs/2402.02713)
 * Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook, in *arXiv* 2023. [\[Paper\]](https://arxiv.org/abs/2310.10196) [\[Website\]](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
 * Transformers in Time Series: A Survey, in *IJCAI* 2023. [\[Paper\]](https://arxiv.org/abs/2202.07125) [\[GitHub Repo\]](https://github.com/qingsongedu/time-series-transformers-review)
@@ -54,22 +60,26 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h3 id="foundation">⛰️ Foundation-model Empowered Time-series Analysis</h3>
 
+* Agentic Retrieval-Augmented Generation for Time Series Analysis, in *KDD* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.14484)
 * Moment: A family of open time-series foundation models, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.03885)
 * A decoder-only foundation model for time-series forecasting, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.10688)
 * Chronos: Learning the language of time series, in *ArXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.07815)
+* Time-llm: Time series forecasting by reprogramming large language models, in *ICLR* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.01728)
 * Lag-llama: Towards foundation models for time series forecasting, in *NeurIPS Workshop* 2023. [\[Paper\]](https://arxiv.org/pdf/2310.08278)
 * One fits all: Power general time series analysis by pretrained lm, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/86c17de05579cde52025f9984e6e2ebb-Paper-Conference.pdf)
+* Large Language Models Are Zero-Shot Time Series Forecasters, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3eb7ca52e8207697361b2c0fb3926511-Paper-Conference.pdf)
 
 
 <h3 id="forecasting">☁️ Forecasting</h3>
 
 <h4 id="forecasting-benchmark">Benchmark and Survey</h4>
 
-* TODO
+* TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods, in *VLDB* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.20150)
+
 
 <h4 id="forecasting-paper">Related Paper</h4>
 
-* TODO
+* Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting, in *ICLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=vSVLM2j9eie)
 
 
 
@@ -116,7 +126,9 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="segmentation-paper">Related Paper</h4>
 
-* TODO
+* ClaSP: parameter-free time series segmentation, in *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://arxiv.org/pdf/2207.13987)
+
+
 
 <h3 id="imputation">🧱 Imputation</h3>
 
