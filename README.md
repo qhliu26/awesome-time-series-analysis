@@ -113,7 +113,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="clustering-benchmark">Benchmark and Survey</h4>
 
-* TODO
+*  End-to-end deep representation learning for time series clustering: a comparative study, *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://link.springer.com/article/10.1007/s10618-021-00796-y)
 
 <h4 id="clustering-paper">Related Paper</h4>
 
