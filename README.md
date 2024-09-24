@@ -31,6 +31,8 @@ If you find any missed resources or errors, please feel free to open an issue or
     * [Clustering](#clustering)
     * [Segmentation](#segmentation)
     * [Imputation](#imputation)
+- [Awesome Time-series Analysis Toolkits](#toolkit)
+
 
 <h2 id="tutorial">Introduction and Tutorials</h2>
 
@@ -48,6 +50,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 
 ### Tutorial
+* An Introduction to Machine Learning from Time Series, in *ECML* 2024. [\[Link\]](https://aeon-tutorials.github.io/ECML-2024/code.html)
 * Time-Series Anomaly Detection: Overview and New Trends, in *VLDB* 2024. [\[Link\]](https://www.vldb.org/pvldb/vol17/p4229-liu.pdf) [\[Video\]](https://youtu.be/96869qimXAA?si=kww8SDL0HZ9CS4Y7)
 * Out-of-Distribution Generalization in Time Series, in *AAAI* 2024. [\[Link\]](https://ood-timeseries.github.io/) [\[Slides\]](https://github.com/ood-timeseries/ood-timeseries.github.io/files/14325164/AAAI24_tutorial_OOD_in_time_series__slides_02182024.pdf)
 * Robust Time Series Analysis and Applications: An Interdisciplinary Approach, in *ICDM* 2023. [\[Link\]](https://sites.google.com/view/timeseries-tutorial-icdm2023)
@@ -113,7 +116,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="clustering-benchmark">Benchmark and Survey</h4>
 
-*  End-to-end deep representation learning for time series clustering: a comparative study, *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://link.springer.com/article/10.1007/s10618-021-00796-y)
+*  End-to-end deep representation learning for time series clustering: a comparative study, in *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://link.springer.com/article/10.1007/s10618-021-00796-y)
 
 <h4 id="clustering-paper">Related Paper</h4>
 
@@ -142,3 +145,11 @@ If you find any missed resources or errors, please feel free to open an issue or
 * TODO
 
 * [Paper Title], in *[J/C]* [Year]. [\[Paper\]]()
+
+
+<h2 id="toolkit">Awesome Time-series Analysis Toolkits</h2>
+
+* `aeon`: A toolkit for machine learning from time series. [\[Link\]](https://github.com/aeon-toolkit/aeon) ![Stars](https://img.shields.io/github/stars/aeon-toolkit/aeon)
+* `sktime`: A unified framework for machine learning with time series. [\[Link\]](https://github.com/sktime/sktime) ![Stars](https://img.shields.io/github/stars/sktime/sktime)
+* `Kats`: A toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis.. [\[Link\]](https://github.com/facebookresearch/Kats)  ![Stars](https://img.shields.io/github/stars/facebookresearch/Kats)
+
