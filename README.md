@@ -25,6 +25,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 - [Introduction and Tutorials](#tutorial)
 - [Time-series Analysis Tasks and Related Papers](#paper)
     * [Foundation-model Empowered Time-series Analysis](#foundation)
+    * [General Time-series Analysis](#general)
     * [Forecasting](#forecasting)
     * [Anomaly Detection](#tsad)
     * [Classification](#classification)
@@ -43,7 +44,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 ### General Time Series Survey
 * Foundation models for time series analysis: A tutorial and survey, in *KDD* 2024. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3637528.3671451)
-* What Can Large Language Models Tell Us about Time Series Analysis, in *ICML* 2024. [\[Paper\]](https://arxiv.org/abs/2402.02713)
+* Position: What Can Large Language Models Tell Us about Time Series Analysis, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.02713)
 * Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook, in *arXiv* 2023. [\[Paper\]](https://arxiv.org/abs/2310.10196) [\[Website\]](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
 * Transformers in Time Series: A Survey, in *IJCAI* 2023. [\[Paper\]](https://arxiv.org/abs/2202.07125) [\[GitHub Repo\]](https://github.com/qingsongedu/time-series-transformers-review)
 * Time series data augmentation for deep learning: a survey, in *IJCAI* 2021. [\[Paper\]](https://arxiv.org/abs/2002.12478)
@@ -67,11 +68,18 @@ If you find any missed resources or errors, please feel free to open an issue or
 * Agentic Retrieval-Augmented Generation for Time Series Analysis, in *KDD* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.14484)
 * Moment: A family of open time-series foundation models, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.03885)
 * A decoder-only foundation model for time-series forecasting, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.10688)
-* Chronos: Learning the language of time series, in *ArXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.07815)
+* Chronos: Learning the language of time series, in *arXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.07815)
 * Time-llm: Time series forecasting by reprogramming large language models, in *ICLR* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.01728)
 * Lag-llama: Towards foundation models for time series forecasting, in *NeurIPS Workshop* 2023. [\[Paper\]](https://arxiv.org/pdf/2310.08278)
 * One fits all: Power general time series analysis by pretrained lm, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/86c17de05579cde52025f9984e6e2ebb-Paper-Conference.pdf)
 * Large Language Models Are Zero-Shot Time Series Forecasters, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3eb7ca52e8207697361b2c0fb3926511-Paper-Conference.pdf)
+
+
+<h3 id="general">🧩 General Time-series Analysis</h3>
+
+* FITS: Modeling Time Series with 10k Parameters, in *ICLR* 2024. [\[Paper\]](https://openreview.net/pdf?id=bWcnvZ3qMb) [\[Code\]](https://github.com/VEWOXIC/FITS)
+* Timesnet: Temporal 2d-variation modeling for general time series analysis, in *ICLR* 2023. [\[Paper\]](https://arxiv.org/pdf/2210.02186v2/1000) [\[Code\]](https://github.com/thuml/TimesNet)
+* Ts2vec: Towards universal representation of time series, in *AAAI* 2022. [\[Paper\]](https://ojs.aaai.org/index.php/AAAI/article/download/20881/version/19178/20640) [\[Code\]](https://github.com/yuezhihan/ts2vec)
 
 
 <h3 id="forecasting">☁️ Forecasting</h3>
@@ -83,7 +91,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="forecasting-paper">Related Paper</h4>
 
-* Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting, in *ICLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=vSVLM2j9eie)
+* Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting, in *ICLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=vSVLM2j9eie) [\[Code\]](https://github.com/Thinklab-SJTU/Crossformer)
 
 
 
@@ -100,13 +108,18 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="tsad-paper">Related Paper</h4>
 
+* TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data, in *VLDB* 2022. [\[Paper\]](http://vldb.org/pvldb/vol15/p1201-tuli.pdf) [\[Code\]](https://github.com/imperial-qore/TranAD)
+* Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy, in *ICLR* 2022. [\[Paper\]](https://openreview.net/pdf?id=LzQQ89U1qm_) [\[Code\]](https://github.com/thuml/Anomaly-Transformer)
+* Usad: Unsupervised anomaly detection on multivariate time series, in *KDD* 2020. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403392) [\[Code\]](https://github.com/manigalati/usad)
+* Robust anomaly detection for multivariate time series through stochastic recurrent neural network, in *KDD* 2019. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3292500.3330672) [\[Code\]](https://github.com/NetManAIOps/OmniAnomaly)
+* Unsupervised anomaly detection via variational auto-encoder for seasonal kpis in web applications, in *WWW* 2018. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3178876.3185996) [\[Code\]](https://github.com/NetManAIOps/donut)
 
 
 <h3 id="classification">🌴 Classification</h3>
 
 <h4 id="classification-benchmark">Benchmark and Survey</h4>
 
-* TODO
+*  Deep learning for time series classification: a review, in *Data Mining and Knowledge Discovery* 2019. [\[Paper\]](https://link.springer.com/article/10.1007/s10618-019-00619-1?sap-outbound-id=11FC28E054C1A9EB6F54F987D4B526A6EE3495FD&mkt-key=005056A5C6311EE999A3A1E864CDA986)
 
 <h4 id="classification-paper">Related Paper</h4>
 
@@ -126,11 +139,15 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="segmentation-benchmark">Benchmark and Survey</h4>
 
-* TODO
+* Unsupervised Time Series Segmentation: A Survey on Recent Advances, in *CMC* 2024. [\[Paper\]](https://cdn.techscience.cn/files/cmc/2024/TSP_CMC-80-2/TSP_CMC_54061/TSP_CMC_54061.pdf)
+* An Evaluation of Change Point Detection Algorithms, in *arXiv* 2022. [\[Paper\]](https://arxiv.org/pdf/2003.06222) [\[Code\]](https://github.com/alan-turing-institute/TCPDBench)
+* A survey of methods for time series change point detection, in *Knowledge and information systems* 2017. [\[Paper\]](https://www.researchgate.net/profile/Samaneh-Aminikhanghahi/publication/307947624_A_Survey_of_Methods_for_Time_Series_Change_Point_Detection/links/5806fcc008aeb85ac85f5cb6/A-Survey-of-Methods-for-Time-Series-Change-Point-Detection.pdf)
 
 <h4 id="segmentation-paper">Related Paper</h4>
 
-* ClaSP: parameter-free time series segmentation, in *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://arxiv.org/pdf/2207.13987)
+* ClaSP: parameter-free time series segmentation, in *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://arxiv.org/pdf/2207.13987) [\[Code\]](https://github.com/ermshaua/claspy)
+* Matrix profile VIII: domain agnostic online semantic segmentation at superhuman performance levels, in *ICDM* 2017. [\[Paper\]](http://www.cs.ucr.edu/~eamonn/Segmentation_ICDM.pdf) [\[Code\]](https://sites.google.com/site/onlinesemanticsegmentation/)
+* Espresso: Entropy and shape aware time-series segmentation for processing heterogeneous sensor data, in *IMWUT* 2020. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3411832) [\[Code\]](https://github.com/cruiseresearchgroup/ESPRESSO/)
 
 
 
@@ -151,5 +168,10 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 * `aeon`: A toolkit for machine learning from time series. [\[Link\]](https://github.com/aeon-toolkit/aeon) ![Stars](https://img.shields.io/github/stars/aeon-toolkit/aeon)
 * `sktime`: A unified framework for machine learning with time series. [\[Link\]](https://github.com/sktime/sktime) ![Stars](https://img.shields.io/github/stars/sktime/sktime)
-* `Kats`: A toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis.. [\[Link\]](https://github.com/facebookresearch/Kats)  ![Stars](https://img.shields.io/github/stars/facebookresearch/Kats)
+* `Kats`: A toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis. [\[Link\]](https://github.com/facebookresearch/Kats)  ![Stars](https://img.shields.io/github/stars/facebookresearch/Kats)
+* `tsai`: State-of-the-art Deep Learning library for Time Series and Sequences. [\[Link\]](https://github.com/timeseriesAI/tsai)  ![Stars](https://img.shields.io/github/stars/timeseriesAI/tsai)
+* `prophet`: Tool for producing high quality forecasts for time series data. [\[Link\]](https://github.com/facebook/prophet)  ![Stars](https://img.shields.io/github/stars/facebook/prophet)
+* `darts`: A python library for user-friendly forecasting and anomaly detection on time series. [\[Link\]](https://github.com/unit8co/darts)  ![Stars](https://img.shields.io/github/stars/unit8co/darts)
+* `gluonts`: Probabilistic time series modeling in Python. [\[Link\]](https://github.com/awslabs/gluonts)  ![Stars](https://img.shields.io/github/stars/awslabs/gluonts)
+* `pyts`: A Python package for time series classification. [\[Link\]](https://github.com/johannfaouzi/pyts)  ![Stars](https://img.shields.io/github/stars/johannfaouzi/pyts)
 
