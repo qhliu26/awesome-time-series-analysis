@@ -22,8 +22,8 @@ If you find any missed resources or errors, please feel free to open an issue or
 - [Sep. 22, 2024] Create the repo!
 
 ## Table of Contents
-- [Introduction and Tutorials](#tutorial)
-- [Time-series Analysis Tasks and Related Papers](#paper)
+- [📚 Introduction and Tutorials](#tutorial)
+- [📝 Time-series Analysis Tasks and Related Papers](#paper)
     * [Foundation-model Empowered Time-series Analysis](#foundation)
     * [General Time-series Analysis](#general)
     * [Forecasting](#forecasting)
@@ -32,10 +32,11 @@ If you find any missed resources or errors, please feel free to open an issue or
     * [Clustering](#clustering)
     * [Segmentation](#segmentation)
     * [Imputation](#imputation)
-- [Awesome Time-series Analysis Toolkits](#toolkit)
+- [📦 Awesome Time-series Analysis Toolkits](#toolkit)
+- [🕶️ More Awesomeness](#related)
 
 
-<h2 id="tutorial">Introduction and Tutorials</h2>
+<h2 id="tutorial">📚 Introduction and Tutorials</h2>
 
 ### Books and PhD Thesis
 * Fast, Scalable, and Accurate Algorithms for Time-Series Analysis, *Phd Thesis* 2018. [\[Link\]](https://academiccommons.columbia.edu/doi/10.7916/D80K3S4B)
@@ -60,7 +61,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 * TODO
 
 
-<h2 id="paper">Time-series Analysis Tasks and Related Papers</h2>
+<h2 id="paper">📝 Time-series Analysis Tasks and Related Papers</h2>
 
 
 <h3 id="foundation">⛰️ Foundation-model Empowered Time-series Analysis</h3>
@@ -155,16 +156,17 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="imputation-benchmark">Benchmark and Survey</h4>
 
-* TODO
+* TSI-Bench: Benchmarking Time Series Imputation, in *arXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2406.12747)
 
 <h4 id="imputation-paper">Related Paper</h4>
 
-* TODO
+* Brits: Bidirectional recurrent imputation for time series, in *NeurIPS* 2018. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf) [\[Code\]](https://github.com/caow13/BRITS)
+
 
 * [Paper Title], in *[J/C]* [Year]. [\[Paper\]]()
 
 
-<h2 id="toolkit">Awesome Time-series Analysis Toolkits</h2>
+<h2 id="toolkit">📦 Awesome Time-series Analysis Toolkits</h2>
 
 * `aeon`: A toolkit for machine learning from time series. [\[Link\]](https://github.com/aeon-toolkit/aeon) ![Stars](https://img.shields.io/github/stars/aeon-toolkit/aeon)
 * `sktime`: A unified framework for machine learning with time series. [\[Link\]](https://github.com/sktime/sktime) ![Stars](https://img.shields.io/github/stars/sktime/sktime)
@@ -174,4 +176,17 @@ If you find any missed resources or errors, please feel free to open an issue or
 * `darts`: A python library for user-friendly forecasting and anomaly detection on time series. [\[Link\]](https://github.com/unit8co/darts)  ![Stars](https://img.shields.io/github/stars/unit8co/darts)
 * `gluonts`: Probabilistic time series modeling in Python. [\[Link\]](https://github.com/awslabs/gluonts)  ![Stars](https://img.shields.io/github/stars/awslabs/gluonts)
 * `pyts`: A Python package for time series classification. [\[Link\]](https://github.com/johannfaouzi/pyts)  ![Stars](https://img.shields.io/github/stars/johannfaouzi/pyts)
+
+
+<h2 id="related">🕶️ More Awesomeness</h2>
+
+* [awesome-AI-for-time-series-papers](https://github.com/qingsongedu/awesome-AI-for-time-series-papers) ![Stars](https://img.shields.io/github/stars/qingsongedu/awesome-AI-for-time-series-papers)
+* [Awesome-TimeSeries-SpatioTemporal-LM-LLM](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM) ![Stars](https://img.shields.io/github/stars/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
+* [awesome-time-series](https://github.com/lmmentel/awesome-time-series)  ![Stars](https://img.shields.io/github/stars/lmmentel/awesome-time-series)
+* [awesome-time-series](https://github.com/cuge1995/awesome-time-series)  ![Stars](https://img.shields.io/github/stars/cuge1995/awesome-time-series)
+* [TSFpaper](https://github.com/ddz16/TSFpaper)  ![Stars](https://img.shields.io/github/stars/ddz16/TSFpaper)
+* [awesome-time-series-segmentation-papers](https://github.com/lzz19980125/awesome-time-series-segmentation-papers)  ![Stars](https://img.shields.io/github/stars/lzz19980125/awesome-time-series-segmentation-papers)
+* [Awesome_Imputation](https://github.com/WenjieDu/Awesome_Imputation)  ![Stars](https://img.shields.io/github/stars/WenjieDu/Awesome_Imputation)
+* [awesome-llm-time-series](https://github.com/xiyuanzh/awesome-llm-time-series)  ![Stars](https://img.shields.io/github/stars/xiyuanzh/awesome-llm-time-series)
+* [Awesome-TimeSeries-LLM-FM](https://github.com/start2020/Awesome-TimeSeries-LLM-FM)  ![Stars](https://img.shields.io/github/stars/start2020/Awesome-TimeSeries-LLM-FM)
 
