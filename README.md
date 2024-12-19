@@ -18,7 +18,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 ## Main Recent Update
 
-
+- [Dec. 19, 2024] Add papers from NeurIPS 2024
 - [Sep. 22, 2024] Create the repo!
 
 ## Table of Contents
@@ -57,9 +57,6 @@ If you find any missed resources or errors, please feel free to open an issue or
 * Out-of-Distribution Generalization in Time Series, in *AAAI* 2024. [\[Link\]](https://ood-timeseries.github.io/) [\[Slides\]](https://github.com/ood-timeseries/ood-timeseries.github.io/files/14325164/AAAI24_tutorial_OOD_in_time_series__slides_02182024.pdf)
 * Robust Time Series Analysis and Applications: An Interdisciplinary Approach, in *ICDM* 2023. [\[Link\]](https://sites.google.com/view/timeseries-tutorial-icdm2023)
 
-### Blogs
-* TODO
-
 
 <h2 id="paper">📝 Time-series Analysis Tasks and Related Papers</h2>
 
@@ -93,7 +90,15 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="forecasting-paper">Related Paper</h4>
 
+* TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.19072) [\[Code\]](https://github.com/thuml/TimeXer)
+* From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2409.17515) [\[Code\]](https://github.com/ameliawong1996/From_News_to_Forecast)
+* CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=clBiQUgj4w) [\[Code\]](https://github.com/ACAT-SCUT/CycleNet)
+* Are Language Models Actually Useful for Time Series Forecasting, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/abs/2406.16964) [\[Code\]](https://github.com/BennyTMT/LLMsForTimeSeries)
+* Are Self-Attentions Effective for Time Series Forecasting, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2405.16877) [\[Code\]](https://github.com/dongbeank/CATS)
+* Frequency Adaptive Normalization For Non-stationary Time Series Forecasting, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=T0axIflVDD) [\[Code\]](http://github.com/wayne155/FAN)
+* DDN: Dual-domain Dynamic Normalization for Non-stationary Time Series Forecasting, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=RVZfra6sZo) [\[Code\]](https://github.com/Hank0626/DDN)
 * Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting, in *ICLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=vSVLM2j9eie) [\[Code\]](https://github.com/Thinklab-SJTU/Crossformer)
+* Reversible instance normalization for accurate time-series forecasting against distribution shift, in *ICLR* 2022. [\[Paper\]](https://openreview.net/pdf?id=cGDAkQo1C0p) [\[Code\]](https://github.com/ts-kim/RevIN)
 
 
 
@@ -101,6 +106,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="tsad-benchmark">Benchmark and Survey</h4>
 
+* The Elephant in the Room: Towards A Reliable Time-series Anomaly Detection Benchmark, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=R6kJtWsTGy) [\[Website\]](https://thedatumorg.github.io/TSB-AD/)
 * An Experimental Evaluation of Anomaly Detection in Time Series, in *VLDB* 2023. [\[Paper\]](https://dl.acm.org/doi/pdf/10.14778/3632093.3632110?casa_token=k7Nl_Vgy4bQAAAAA:Xam85MABRXcLey5B9Ic_b7H4tzzpch_jz4jTWAi3D8PFnGFSOkZuPyCPnfVolmW_I7AXtmXbjDyth54)
 * Timesead: Benchmarking deep multivariate time-series anomaly detection, in *TMLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=iMmsCI0JsS)
 * TSB-UAD: an end-to-end benchmark suite for univariate time-series anomaly detection, in *VLDB* 2022. [\[Paper\]](https://dl.acm.org/doi/pdf/10.14778/3529337.3529354?casa_token=JwNN0XtFhBwAAAAA:wa9QZshoY_Ib8As5sYDwcu7UY3IWuJ80FUE7eBhW3oazsiRBrGtRv1PmSeeFbhSx76o0RbZ41tiIaiU) [\[Website\]](https://github.com/TheDatumOrg/TSB-UAD)
@@ -108,10 +114,13 @@ If you find any missed resources or errors, please feel free to open an issue or
 * A review on outlier/anomaly detection in time series data, in *CSUR* 2021. [\[Paper\]](https://arxiv.org/abs/2002.04236)
 * Anomaly detection for IoT time-series data: A survey, in *IEEE Internet of Things Journal* 2019. [\[Paper\]](https://ieeexplore.ieee.org/abstract/document/8926446/?casa_token=nzFb6ihAXegAAAAA:TcN1je2Xp_9rIJyZ8O6Poq4mCmtjSoeoZZAJodgBKpGxzz84FFOUYlf028wPibQQAig5SRtZ0Q4)
 
+
 <h4 id="tsad-paper">Related Paper</h4>
 
+* SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=gmf5Aj01Hz) [\[Code\]](https://github.com/daidahao/SARAD)
 * TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data, in *VLDB* 2022. [\[Paper\]](http://vldb.org/pvldb/vol15/p1201-tuli.pdf) [\[Code\]](https://github.com/imperial-qore/TranAD)
 * Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy, in *ICLR* 2022. [\[Paper\]](https://openreview.net/pdf?id=LzQQ89U1qm_) [\[Code\]](https://github.com/thuml/Anomaly-Transformer)
+* TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Frequency Analysis, in *ICLR* 2022. [\[Paper\]](https://arxiv.org/pdf/2210.09693) [\[Code\]](https://github.com/DAMO-DI-ML/CIKM22-TFAD)
 * Usad: Unsupervised anomaly detection on multivariate time series, in *KDD* 2020. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403392) [\[Code\]](https://github.com/manigalati/usad)
 * Robust anomaly detection for multivariate time series through stochastic recurrent neural network, in *KDD* 2019. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3292500.3330672) [\[Code\]](https://github.com/NetManAIOps/OmniAnomaly)
 * Unsupervised anomaly detection via variational auto-encoder for seasonal kpis in web applications, in *WWW* 2018. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3178876.3185996) [\[Code\]](https://github.com/NetManAIOps/donut)
@@ -125,7 +134,9 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="classification-paper">Related Paper</h4>
 
-* TODO
+* UniMTS: Unified Pre-training for Motion Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=DpByqSbdhI) [\[Code\]](https://github.com/xiyuanzh/UniMTS)
+* Abstracted Shapes as Tokens - A Generalizable and Interpretable Model for Time-series Classification, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2411.01006) [\[Code\]](https://github.com/YunshiWen/VQShape)
+* Con4m: Context-aware Consistency Learning Framework for Segmented Time Series Classification, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.00041) [\[Code\]](https://github.com/MrNobodyCali/Con4m)
 
 <h3 id="clustering">🏖️ Clustering</h3>
 
@@ -135,7 +146,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="clustering-paper">Related Paper</h4>
 
-* TODO
+* k-shape: Efficient and accurate clustering of time series, in *SIGMOD* 2015. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/2723372.2737793?casa_token=xULrZ0SDZYMAAAAA:krad1sEMVW4Sa5GO6qgDI6k5XC2pyp9cikSp95prI2uYTqZWnybYdmignJ-ObydUAPKOin_zjbONuLQ) [\[Code\]](https://github.com/TheDatumOrg/kshape-python)
 
 <h3 id="segmentation">🚪 Segmentation</h3>
 
@@ -162,9 +173,6 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h4 id="imputation-paper">Related Paper</h4>
 
 * Brits: Bidirectional recurrent imputation for time series, in *NeurIPS* 2018. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf) [\[Code\]](https://github.com/caow13/BRITS)
-
-
-* [Paper Title], in *[J/C]* [Year]. [\[Paper\]]()
 
 
 <h2 id="toolkit">📦 Awesome Time-series Analysis Toolkits</h2>
