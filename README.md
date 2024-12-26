@@ -24,8 +24,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 ## Table of Contents
 - [📚 Introduction and Tutorials](#tutorial)
 - [📝 Time-series Analysis Tasks and Related Papers](#paper)
-    * [Foundation-model Empowered Time-series Analysis](#foundation)
-    * [General Time-series Analysis](#general)
+    * [Time-series Analysis In General](#general)
     * [Forecasting](#forecasting)
     * [Anomaly Detection](#tsad)
     * [Classification](#classification)
@@ -43,40 +42,40 @@ If you find any missed resources or errors, please feel free to open an issue or
 * Fast Algorithms for Mining Co-evolving Time Series, *Phd Thesis* 2010. [\[Link\]](https://lileicc.github.io/pubs/li2010fast.pdf)
 
 
-### General Time Series Survey
+### Workshops and Tutorials
+* Time Series in the Age of Large Models, in *NeurIPS* 2024. [\[Link\]](https://neurips-time-series-workshop.github.io/)
+* An Introduction to Machine Learning from Time Series, in *ECML* 2024. [\[Link\]](https://aeon-tutorials.github.io/ECML-2024/code.html)
+* Time-Series Anomaly Detection: Overview and New Trends, in *VLDB* 2024. [\[Link\]](https://www.vldb.org/pvldb/vol17/p4229-liu.pdf) [\[Video\]](https://youtu.be/96869qimXAA?si=kww8SDL0HZ9CS4Y7)
+* AI for Time Series Analysis, in *AAAI* 2024. [\[Link\]](https://ai4ts.github.io/aaai2024)
+* Out-of-Distribution Generalization in Time Series, in *AAAI* 2024. [\[Link\]](https://ood-timeseries.github.io/) [\[Slides\]](https://github.com/ood-timeseries/ood-timeseries.github.io/files/14325164/AAAI24_tutorial_OOD_in_time_series__slides_02182024.pdf)
+* Robust Time Series Analysis and Applications: An Interdisciplinary Approach, in *ICDM* 2023. [\[Link\]](https://sites.google.com/view/timeseries-tutorial-icdm2023)
+
+
+<h2 id="paper">📝 Time-series Papers</h2>
+
+<h3 id="general">🧩 Time-series Analysis In General</h3>
+
+<h4 id="general-benchmark">Benchmark and Survey</h4>
+
 * Foundation models for time series analysis: A tutorial and survey, in *KDD* 2024. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3637528.3671451)
 * Position: What Can Large Language Models Tell Us about Time Series Analysis, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.02713)
 * Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook, in *arXiv* 2023. [\[Paper\]](https://arxiv.org/abs/2310.10196) [\[Website\]](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
 * Transformers in Time Series: A Survey, in *IJCAI* 2023. [\[Paper\]](https://arxiv.org/abs/2202.07125) [\[GitHub Repo\]](https://github.com/qingsongedu/time-series-transformers-review)
 * Time series data augmentation for deep learning: a survey, in *IJCAI* 2021. [\[Paper\]](https://arxiv.org/abs/2002.12478)
 
+<h4 id="general-paper">Related Paper</h4>
 
-### Tutorial
-* An Introduction to Machine Learning from Time Series, in *ECML* 2024. [\[Link\]](https://aeon-tutorials.github.io/ECML-2024/code.html)
-* Time-Series Anomaly Detection: Overview and New Trends, in *VLDB* 2024. [\[Link\]](https://www.vldb.org/pvldb/vol17/p4229-liu.pdf) [\[Video\]](https://youtu.be/96869qimXAA?si=kww8SDL0HZ9CS4Y7)
-* Out-of-Distribution Generalization in Time Series, in *AAAI* 2024. [\[Link\]](https://ood-timeseries.github.io/) [\[Slides\]](https://github.com/ood-timeseries/ood-timeseries.github.io/files/14325164/AAAI24_tutorial_OOD_in_time_series__slides_02182024.pdf)
-* Robust Time Series Analysis and Applications: An Interdisciplinary Approach, in *ICDM* 2023. [\[Link\]](https://sites.google.com/view/timeseries-tutorial-icdm2023)
-
-
-<h2 id="paper">📝 Time-series Analysis Tasks and Related Papers</h2>
-
-
-<h3 id="foundation">⛰️ Foundation-model Empowered Time-series Analysis</h3>
-
+* UniTS: A unified multi-task time series model, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=nBOdYBptWW) [\[Code\]](https://github.com/mims-harvard/UniTS)
 * Agentic Retrieval-Augmented Generation for Time Series Analysis, in *KDD* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.14484)
 * Moment: A family of open time-series foundation models, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.03885) [\[Code\]](https://github.com/moment-timeseries-foundation-model/moment)
 * A decoder-only foundation model for time-series forecasting, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.10688) [\[Code\]](https://github.com/google-research/timesfm)
 * TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting, in *ICLR* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.04948) [\[Code\]](https://github.com/DC-research/TEMPO)
 * Chronos: Learning the language of time series, in *arXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.07815) [\[Code\]](https://github.com/amazon-science/chronos-forecasting)
 * Time-llm: Time series forecasting by reprogramming large language models, in *ICLR* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.01728) [\[Code\]](https://github.com/KimMeen/Time-LLM)
+* FITS: Modeling Time Series with 10k Parameters, in *ICLR* 2024. [\[Paper\]](https://openreview.net/pdf?id=bWcnvZ3qMb) [\[Code\]](https://github.com/VEWOXIC/FITS)
 * Lag-llama: Towards foundation models for time series forecasting, in *NeurIPS Workshop* 2023. [\[Paper\]](https://arxiv.org/pdf/2310.08278) [\[Code\]](https://github.com/time-series-foundation-models/lag-llama)
 * One fits all: Power general time series analysis by pretrained lm, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/86c17de05579cde52025f9984e6e2ebb-Paper-Conference.pdf) [\[Code\]](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
 * Large Language Models Are Zero-Shot Time Series Forecasters, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3eb7ca52e8207697361b2c0fb3926511-Paper-Conference.pdf) [\[Code\]](https://github.com/ngruver/llmtime)
-
-
-<h3 id="general">🧩 General Time-series Analysis</h3>
-
-* FITS: Modeling Time Series with 10k Parameters, in *ICLR* 2024. [\[Paper\]](https://openreview.net/pdf?id=bWcnvZ3qMb) [\[Code\]](https://github.com/VEWOXIC/FITS)
 * Timesnet: Temporal 2d-variation modeling for general time series analysis, in *ICLR* 2023. [\[Paper\]](https://arxiv.org/pdf/2210.02186v2/1000) [\[Code\]](https://github.com/thuml/TimesNet)
 * Ts2vec: Towards universal representation of time series, in *AAAI* 2022. [\[Paper\]](https://ojs.aaai.org/index.php/AAAI/article/download/20881/version/19178/20640) [\[Code\]](https://github.com/yuezhihan/ts2vec)
 
@@ -90,6 +89,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="forecasting-paper">Related Paper</h4>
 
+* Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2401.03955) [\[Code\]](https://github.com/ibm-granite/granite-tsfm/tree/main/tsfm_public/models/tinytimemixer)
 * TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.19072) [\[Code\]](https://github.com/thuml/TimeXer)
 * From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2409.17515) [\[Code\]](https://github.com/ameliawong1996/From_News_to_Forecast)
 * CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=clBiQUgj4w) [\[Code\]](https://github.com/ACAT-SCUT/CycleNet)
@@ -107,6 +107,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h4 id="tsad-benchmark">Benchmark and Survey</h4>
 
 * The Elephant in the Room: Towards A Reliable Time-series Anomaly Detection Benchmark, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=R6kJtWsTGy) [\[Website\]](https://thedatumorg.github.io/TSB-AD/)
+* Deep learning for time series anomaly detection: A survey, in *CSUR* 2024. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3691338)
 * An Experimental Evaluation of Anomaly Detection in Time Series, in *VLDB* 2023. [\[Paper\]](https://dl.acm.org/doi/pdf/10.14778/3632093.3632110?casa_token=k7Nl_Vgy4bQAAAAA:Xam85MABRXcLey5B9Ic_b7H4tzzpch_jz4jTWAi3D8PFnGFSOkZuPyCPnfVolmW_I7AXtmXbjDyth54)
 * Timesead: Benchmarking deep multivariate time-series anomaly detection, in *TMLR* 2023. [\[Paper\]](https://openreview.net/pdf?id=iMmsCI0JsS)
 * TSB-UAD: an end-to-end benchmark suite for univariate time-series anomaly detection, in *VLDB* 2022. [\[Paper\]](https://dl.acm.org/doi/pdf/10.14778/3529337.3529354?casa_token=JwNN0XtFhBwAAAAA:wa9QZshoY_Ib8As5sYDwcu7UY3IWuJ80FUE7eBhW3oazsiRBrGtRv1PmSeeFbhSx76o0RbZ41tiIaiU) [\[Website\]](https://github.com/TheDatumOrg/TSB-UAD)
@@ -143,6 +144,8 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h4 id="clustering-benchmark">Benchmark and Survey</h4>
 
 *  End-to-end deep representation learning for time series clustering: a comparative study, in *Data Mining and Knowledge Discovery* 2023. [\[Paper\]](https://link.springer.com/article/10.1007/s10618-021-00796-y)
+*  Clustering of time series data—a survey, in *Pattern Recognition* 2005. [\[Paper\]](https://www.sciencedirect.com/science/article/pii/S0031320305001305?casa_token=55dVI7qJgOQAAAAA:C8u2o_lgFkiIXwvheIhORs-BjMLIqTBZWsq18-VX_jVkRdo5-w8LuQPYwizemvQufNBZb4GvvbS1)
+
 
 <h4 id="clustering-paper">Related Paper</h4>
 
