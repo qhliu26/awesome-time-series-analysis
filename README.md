@@ -68,6 +68,8 @@ If you find any missed resources or errors, please feel free to open an issue or
 * UniTS: A unified multi-task time series model, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=nBOdYBptWW) [\[Code\]](https://github.com/mims-harvard/UniTS)
 * Agentic Retrieval-Augmented Generation for Time Series Analysis, in *KDD* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.14484)
 * Moment: A family of open time-series foundation models, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.03885) [\[Code\]](https://github.com/moment-timeseries-foundation-model/moment)
+* Timer: Generative Pre-trained Transformers Are Large Time Series Models, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.02368) [\[Code\]](https://github.com/thuml/Large-Time-Series-Model)
+* Unified Training of Universal Time Series Forecasting Transformers, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2402.02592) [\[Code\]](https://github.com/SalesforceAIResearch/uni2ts)
 * A decoder-only foundation model for time-series forecasting, in *ICML* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.10688) [\[Code\]](https://github.com/google-research/timesfm)
 * TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting, in *ICLR* 2024. [\[Paper\]](https://arxiv.org/pdf/2310.04948) [\[Code\]](https://github.com/DC-research/TEMPO)
 * Chronos: Learning the language of time series, in *arXiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2403.07815) [\[Code\]](https://github.com/amazon-science/chronos-forecasting)
@@ -76,6 +78,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 * Lag-llama: Towards foundation models for time series forecasting, in *NeurIPS Workshop* 2023. [\[Paper\]](https://arxiv.org/pdf/2310.08278) [\[Code\]](https://github.com/time-series-foundation-models/lag-llama)
 * One fits all: Power general time series analysis by pretrained lm, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/86c17de05579cde52025f9984e6e2ebb-Paper-Conference.pdf) [\[Code\]](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
 * Large Language Models Are Zero-Shot Time Series Forecasters, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/3eb7ca52e8207697361b2c0fb3926511-Paper-Conference.pdf) [\[Code\]](https://github.com/ngruver/llmtime)
+* A Shapelet-based Framework for Unsupervised Multivariate Time Series Representation Learning, in *VLDB* 2023. [\[Paper\]](https://www.vldb.org/pvldb/vol17/p386-wang.pdf) [\[Code\]](https://github.com/real2fish/CSL)
 * Timesnet: Temporal 2d-variation modeling for general time series analysis, in *ICLR* 2023. [\[Paper\]](https://arxiv.org/pdf/2210.02186v2/1000) [\[Code\]](https://github.com/thuml/TimesNet)
 * Ts2vec: Towards universal representation of time series, in *AAAI* 2022. [\[Paper\]](https://ojs.aaai.org/index.php/AAAI/article/download/20881/version/19178/20640) [\[Code\]](https://github.com/yuezhihan/ts2vec)
 
@@ -119,6 +122,8 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h4 id="tsad-paper">Related Paper</h4>
 
 * SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=gmf5Aj01Hz) [\[Code\]](https://github.com/daidahao/SARAD)
+* Memto: Memory-guided transformer for multivariate time series anomaly detection, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b4c898eb1fb556b8d871fbe9ead92256-Paper-Conference.pdf) [\[Code\]](https://github.com/gunny97/MEMTO)
+* Dcdetector: Dual attention contrastive representation learning for time series anomaly detection, in *KDD* 2023. [\[Paper\]](https://dl.acm.org/doi/pdf/10.1145/3580305.3599295?casa_token=6CwHyakbA1kAAAAA:dEw8Iwjk8OdIpA-uBRVqRjmS4_HVazkCN4bh7ugRHeQCYUHz3lSKX8agKCwzvwRnWilnOZtqocI4vTY) [\[Code\]](https://github.com/DAMO-DI-ML/KDD2023-DCdetector)
 * TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data, in *VLDB* 2022. [\[Paper\]](http://vldb.org/pvldb/vol15/p1201-tuli.pdf) [\[Code\]](https://github.com/imperial-qore/TranAD)
 * Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy, in *ICLR* 2022. [\[Paper\]](https://openreview.net/pdf?id=LzQQ89U1qm_) [\[Code\]](https://github.com/thuml/Anomaly-Transformer)
 * TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Frequency Analysis, in *ICLR* 2022. [\[Paper\]](https://arxiv.org/pdf/2210.09693) [\[Code\]](https://github.com/DAMO-DI-ML/CIKM22-TFAD)
