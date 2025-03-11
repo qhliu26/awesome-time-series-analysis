@@ -39,6 +39,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h2 id="tutorial">📚 Introduction and Tutorials</h2>
 
 ### Books and PhD Thesis
+* Forecasting: Principles and Practice. [\[Link\]](https://otexts.com/fpp2/)
 * Fast, Scalable, and Accurate Algorithms for Time-Series Analysis, *Phd Thesis* 2018. [\[Link\]](https://academiccommons.columbia.edu/doi/10.7916/D80K3S4B)
 * Fast Algorithms for Mining Co-evolving Time Series, *Phd Thesis* 2010. [\[Link\]](https://lileicc.github.io/pubs/li2010fast.pdf)
 
