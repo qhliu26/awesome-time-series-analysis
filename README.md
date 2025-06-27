@@ -130,7 +130,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 * Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=aKcd7ImG5e) [\[Code\]](https://github.com/decisionintelligence/DADA)
 * Multi-Resolution Decomposable Diffusion Model for Non-Stationary Time Series Anomaly Detection, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=eWocmTQn7H)
 * CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=m08aK3xxdJ) [\[Code\]](https://github.com/decisionintelligence/CATCH)
-* Can LLMs Understand Time Series Anomalies, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=k38Th3x4d9) [\[Code\]](https://github.com/rose-stl-lab/anomllm)
+* Can LLMs Understand Time Series Anomalies, in *ICLR* 2025. [\[Paper\]](https://arxiv.org/pdf/2410.05440) [\[Code\]](https://github.com/rose-stl-lab/anomllm)
 * Root Cause Analysis of Anomalies in Multivariate Time Series through Granger Causal Discovery, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=k38Th3x4d9) [\[Code\]](https://github.com/hanxiao0607/AERCA)
 * SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=gmf5Aj01Hz) [\[Code\]](https://github.com/daidahao/SARAD)
 * Memto: Memory-guided transformer for multivariate time series anomaly detection, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b4c898eb1fb556b8d871fbe9ead92256-Paper-Conference.pdf) [\[Code\]](https://github.com/gunny97/MEMTO)
