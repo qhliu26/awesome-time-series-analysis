@@ -18,6 +18,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 ## Main Recent Update
 
+- [Aug. 15, 2025] Add papers from ICML 2025
 - [Mar. 5, 2025] Add papers from ICLR 2025
 - [Dec. 19, 2024] Add papers from NeurIPS 2024
 - [Sep. 22, 2024] Create the repo!
@@ -67,6 +68,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="general-paper">Related Paper</h4>
 
+* Sundial: A Family of Highly Capable Time Series Foundation Models, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2502.00816) [\[Code\]](https://github.com/thuml/Sundial)
 * TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=1CLzLXSFNn) [\[Code\]](https://github.com/kwuking/TimeMixer)
 * Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=e1wDDFmlVu) [\[Code\]](https://github.com/Time-MoE/Time-MoE)
 * UniTS: A unified multi-task time series model, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=nBOdYBptWW) [\[Code\]](https://github.com/mims-harvard/UniTS)
@@ -96,6 +98,14 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="forecasting-paper">Related Paper</h4>
 
+* Patch-wise Structural Loss for Time Series Forecasting, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2503.00877) [\[Code\]](https://github.com/Dilfiraa/PS_Loss)
+* TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2410.04442) [\[Code\]](https://github.com/Hank0626/TimeBridge)
+* IMTS is Worth Time × Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2505.22815) [\[Code\]](https://github.com/WHU-HZY/VIMTS)
+* VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecastersg, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2408.17253) [\[Code\]](https://github.com/Keytoyze/VisionTS)
+* Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2502.04395) [\[Code\]](https://github.com/CityMind-Lab/ICML25-TimeVLM)
+* AdaPTS: Adapting Univariate Foundation Models to Probabilistic Multivariate Time Series Forecasting, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2502.10235) [\[Code\]](https://github.com/abenechehab/AdaPTS)
+* Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2412.05244)
+* TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2410.05711) [\[Code\]](https://github.com/Melmaphother/TimeDART)
 * Flow Matching with Gaussian Process Priors for Probabilistic Time Series Forecasting, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=uxVBbSlKQ4)
 * CoMRes: Semi-Supervised Time Series Forecasting Utilizing Consensus Promotion of Multi-Resolution, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=bRa4JLPzii) [\[Code\]](https://github.com/yjucho1/CoMRes)
 * Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2401.03955) [\[Code\]](https://github.com/ibm-granite/granite-tsfm/tree/main/tsfm_public/models/tinytimemixer)
@@ -127,10 +137,13 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="tsad-paper">Related Paper</h4>
 
+
+* KAN-AD: Time Series Anomaly Detection with Kolmogorov–Arnold Networks, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2411.00278) [\[Code\]](https://github.com/CSTCloudOps/KAN-AD)
+* Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2506.03964) [\[Code\]](https://github.com/kimanki/CAROTS)
 * Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=aKcd7ImG5e) [\[Code\]](https://github.com/decisionintelligence/DADA)
 * Multi-Resolution Decomposable Diffusion Model for Non-Stationary Time Series Anomaly Detection, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=eWocmTQn7H)
 * CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=m08aK3xxdJ) [\[Code\]](https://github.com/decisionintelligence/CATCH)
-* Can LLMs Understand Time Series Anomalies, in *ICLR* 2025. [\[Paper\]](https://arxiv.org/pdf/2410.05440) [\[Code\]](https://github.com/rose-stl-lab/anomllm)
+* Can LLMs Understand Time Series Anomalies, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=k38Th3x4d9) [\[Code\]](https://github.com/rose-stl-lab/anomllm)
 * Root Cause Analysis of Anomalies in Multivariate Time Series through Granger Causal Discovery, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=k38Th3x4d9) [\[Code\]](https://github.com/hanxiao0607/AERCA)
 * SARAD: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=gmf5Aj01Hz) [\[Code\]](https://github.com/daidahao/SARAD)
 * Memto: Memory-guided transformer for multivariate time series anomaly detection, in *NeurIPS* 2023. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b4c898eb1fb556b8d871fbe9ead92256-Paper-Conference.pdf) [\[Code\]](https://github.com/gunny97/MEMTO)
@@ -151,6 +164,8 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="classification-paper">Related Paper</h4>
 
+* Spectral-Aware Reservoir Computing for Fast and Accurate Time Series Classification, in *ICML* 2025. [\[Paper\]](https://openreview.net/pdf?id=DmPW0pO3F3) [\[Code\]](https://github.com/ZOF-pt/SARC)
+* Learning Soft Sparse Shapes for Efficient Time-Series Classification, in *ICML* 2025. [\[Paper\]](https://arxiv.org/pdf/2505.06892) [\[Code\]](https://github.com/qianlima-lab/SoftShape)
 * UniMTS: Unified Pre-training for Motion Time Series, in *NeurIPS* 2024. [\[Paper\]](https://openreview.net/pdf?id=DpByqSbdhI) [\[Code\]](https://github.com/xiyuanzh/UniMTS)
 * Abstracted Shapes as Tokens - A Generalizable and Interpretable Model for Time-series Classification, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2411.01006) [\[Code\]](https://github.com/YunshiWen/VQShape)
 * Con4m: Context-aware Consistency Learning Framework for Segmented Time Series Classification, in *NeurIPS* 2024. [\[Paper\]](https://arxiv.org/pdf/2408.00041) [\[Code\]](https://github.com/MrNobodyCali/Con4m)
@@ -191,6 +206,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 <h4 id="imputation-paper">Related Paper</h4>
 
+* LSCD: Lomb-Scargle Conditioned Diffusion for Time series Imputation, in *ICML* 2025. [\[Paper\]](https://www.arxiv.org/pdf/2506.17039)
 * Optimal Transport for Time Series Imputation, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=xPTzjpIQNp) [\[Code\]](https://github.com/FMLYD/PSW-I)
 * Brits: Bidirectional recurrent imputation for time series, in *NeurIPS* 2018. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf) [\[Code\]](https://github.com/caow13/BRITS)
 
