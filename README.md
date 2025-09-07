@@ -7,9 +7,6 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![[MIT License]](https://img.shields.io/badge/license-MIT-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) 
-![Stars](https://img.shields.io/github/stars/qhliu26/awesome-time-series)
-[![Visits Badge](https://badges.pufler.dev/visits/qhliu26/awesome-time-series)](https://badges.pufler.dev/visits/qhliu26/awesome-time-series)
-
 
 📖 A curated list of awesome time-series papers, benchmarks, datasets, tutorials.
 
@@ -18,6 +15,7 @@ If you find any missed resources or errors, please feel free to open an issue or
 
 ## Main Recent Update
 
+- [Sep. 7, 2025] Add papers on AI in Finance
 - [Aug. 15, 2025] Add papers from ICML 2025
 - [Mar. 5, 2025] Add papers from ICLR 2025
 - [Dec. 19, 2024] Add papers from NeurIPS 2024
@@ -33,6 +31,7 @@ If you find any missed resources or errors, please feel free to open an issue or
     * [Clustering](#clustering)
     * [Segmentation](#segmentation)
     * [Imputation](#imputation)
+- [📈 AI in Finance](#fin)
 - [📦 Awesome Time-series Analysis Toolkits](#toolkit)
 - [🕶️ More Awesomeness](#related)
 
@@ -209,6 +208,12 @@ If you find any missed resources or errors, please feel free to open an issue or
 * LSCD: Lomb-Scargle Conditioned Diffusion for Time series Imputation, in *ICML* 2025. [\[Paper\]](https://www.arxiv.org/pdf/2506.17039)
 * Optimal Transport for Time Series Imputation, in *ICLR* 2025. [\[Paper\]](https://openreview.net/pdf?id=xPTzjpIQNp) [\[Code\]](https://github.com/FMLYD/PSW-I)
 * Brits: Bidirectional recurrent imputation for time series, in *NeurIPS* 2018. [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf) [\[Code\]](https://github.com/caow13/BRITS)
+
+<h2 id="fin">📈 AI in Finance</h2>
+
+* The LDBC Financial Benchmark: Transaction Workload, in *VLDB* 2025. [\[Paper\]](https://www.vldb.org/pvldb/vol18/p3007-qi.pdf) [\[Code\]](https://github.com/ldbc/ldbc_finbench_transaction_impls)
+* FinAgentBench: A Benchmark Dataset for Agentic Retrieval in Financial Question Answering, in *Arxiv* 2025. [\[Paper\]](https://arxiv.org/pdf/2508.14052) 
+* TradingAgents: Multi-Agents LLM Financial Trading Framework, in *Arxiv* 2024. [\[Paper\]](https://arxiv.org/pdf/2412.20138) [\[Code\]](https://github.com/TauricResearch/TradingAgents)
 
 
 <h2 id="toolkit">📦 Awesome Time-series Analysis Toolkits</h2>
