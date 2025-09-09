@@ -39,7 +39,10 @@ If you find any missed resources or errors, please feel free to open an issue or
 <h2 id="tutorial">📚 Introduction and Tutorials</h2>
 
 ### Books and PhD Thesis
-* Forecasting: Principles and Practice. [\[Link\]](https://otexts.com/fpp2/)
+* Forecasting: Principles and Practice, *Book* 2021. [\[Link\]](https://otexts.com/fpp3/)
+* Applied Time Series Analysis: A Practical Guide to Modeling and Forecasting, *Book* 2019. [\[Link\]](http://repo.darmajaya.ac.id/5635/1/Applied%20Time%20Series%20Analysis_%20A%20Practical%20Guide%20to%20Modeling%20and%20Forecasting%20%28%20PDFDrive%20%29.pdf)
+* Nonlinear Time Series Analysis, *Book* 2019. [\[Link\]](https://www.biodyn.ro/course/literatura/Nonlinear_Time_Series_Analysis_2019_Ruey_S._Tsay,_Rong_Chen.pdf/)
+* Analysis of Financial Time Series, *Book* 2010. [\[Link\]](https://agorism.dev/book/finance/time-series/Ruey%20S.%20Tsay%20-%20Analysis%20of%20Financial%20Time%20Series%2C%20Third%20Edition%20%28Wiley%20Series%20in%20Probability%20and%20Statistics%29-John%20Wiley%20%26%20Sons%20%282010%29.pdf)
 * Fast, Scalable, and Accurate Algorithms for Time-Series Analysis, *Phd Thesis* 2018. [\[Link\]](https://academiccommons.columbia.edu/doi/10.7916/D80K3S4B)
 * Fast Algorithms for Mining Co-evolving Time Series, *Phd Thesis* 2010. [\[Link\]](https://lileicc.github.io/pubs/li2010fast.pdf)
 
